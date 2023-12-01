@@ -2,11 +2,11 @@ Reference:
   @incollection{article},
   title = {Applications of quantum surrogate circuit using particle-number-conserving state on quantum chemical calculations},
   author ={Y. Nishida, F. Aiga},
-  booktitle = {APL Quantum},
-  editor = {Ortwin Hess},
+  booktitle = {},
+  editor = {},
   pages = {  },
   year = {202x},
-  publisher = {AIP Publishing},
+  publisher = {},
   url = {  }
   
 
