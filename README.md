@@ -16,7 +16,7 @@ We have confirmed that this code works with qiskit==0.45.0.
 
 ## How to use
 
-To use the scripts, simply set the input data in notebooks. However, only n=4 or 6 (number of qubits) trained quantum circuit model  with D=4 (PQC depth) are available. Optimized parameters are stored in the params directory.
+To use the scripts, simply set the input data in notebooks. However, only n=4 or 6 (number of qubits) trained quantum circuit learning model with D=4 (PQC depth) are available. Optimized parameters are stored in the params directory.
 
 ## License
 
