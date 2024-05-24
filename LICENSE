@@ -1,19 +1,19 @@
-Reference: 
-  @incollection{article},
-  title = {Applications of quantum surrogate circuit using particle-number-conserving state on quantum chemical calculations},
-  author ={Y. Nishida, F. Aiga},
-  booktitle = {},
-  editor = {},
-  pages = {},
-  year = {202x},
-  publisher = {},
-  url = {}
+Reference:
+@article{nishida2024applications,
+  title={Applications of quantum circuit learning model using particle-number-conserving state on quantum chemical calculations},
+  author={Nishida, Y and Aiga, F},
+  journal={APL Quantum},
+  volume={1},
+  number={2},
+  year={2024},
+  publisher={AIP Publishing},
+  url = {https://doi.org/10.1063/5.0189832}
+}
   
-
 Licensed Materials:
 The sample software programs which is the supplementary material of the Paper Submitted as above.
   
-Terms of Use copyright © 202x Toshiba Corporation
+Terms of Use copyright © 2024 Toshiba Corporation
 
 This evaluation software license agreement (“Agreement”) is a legal agreement between you a
 Toshiba Corporation (“TOSHIBA”). In this Agreement “you” means you personally for your
