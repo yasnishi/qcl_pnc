@@ -30,7 +30,7 @@ def QNNcircuit_PNC(num_qubits, X, reps_pqc, reps, params):
 
     sigma_x = [0, 0, _X]
 
-    # HF initial state
+    # Initial state
     for i in range(num_qubits // 2):
         qc.x(2 * i)
 
@@ -50,7 +50,7 @@ def QNNcircuit_PNC(num_qubits, X, reps_pqc, reps, params):
     ## Second Layer -------------------------------------------
     qc2 = QuantumCircuit(num_qubits)
 
-    # HF initial state
+    # Initial state
     for i in range(num_qubits // 2):
         qc2.x(2 * i)
 
@@ -77,7 +77,7 @@ def QNNcircuit_PNC_linear(num_qubits, X, reps_pqc, reps, params):
 
     sigma_x = [0, 0, _X]
 
-    # HF initial state
+    # Initial state
     for i in range(num_qubits // 2):
         qc.x(2 * i)
 
@@ -108,7 +108,7 @@ def QNNcircuit_PNC_with_g(num_qubits, X, reps_pqc, reps, params, weight=1.0):
     ## Second Layer -------------------------------------------
     qc2 = QuantumCircuit(num_qubits)
 
-    # HF initial state
+    # Initial state
     for i in range(num_qubits // 2):
         qc2.x(2 * i)
 
@@ -135,7 +135,7 @@ def QNNcircuit_PNC_with_h(num_qubits, X, reps_pqc, reps, params, weight=1.0):
     ## Second Layer -------------------------------------------
     qc2 = QuantumCircuit(num_qubits)
 
-    # HF initial state
+    # Initial state
     for i in range(num_qubits // 2):
         qc2.x(2 * i)
 
@@ -179,7 +179,7 @@ def QNNcircuit_PNC_H3(num_qubits, X, reps_pqc, reps, params):
     ## normalization of X
     sigma_x = [X[0], X[1], X[2], 0]
 
-    # HF initial state
+    # Initial state
     for i in range(num_qubits // 2):
         qc.x(2 * i)
 
@@ -205,7 +205,7 @@ def QNNcircuit_PNC_H3(num_qubits, X, reps_pqc, reps, params):
     ## Second Layer -------------------------------------------
     qc2 = QuantumCircuit(num_qubits)
 
-    # HF initial state
+    # Initial state
     for i in range(num_qubits // 2):
         qc2.x(2 * i)
 
